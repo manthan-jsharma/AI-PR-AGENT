@@ -37,7 +37,7 @@ def run_review_agent(repo_name, pr_number):
         print("No issues found. Posted LGTM.")
 
 if __name__ == "__main__":
-    REPO = "manthan-jsharma/AI-Video-Editor"
-    PR_ID = 2
+    REPO = "manthan-jsharma/AI-PR-AGENT"
+    PR_ID = 1
     
     run_review_agent(REPO, PR_ID)
