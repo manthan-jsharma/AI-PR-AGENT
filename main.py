@@ -5,6 +5,18 @@ from agent import build_graph
 
 load_dotenv()
 
+
+## this code is for Testing the AI PR AGENT
+
+def process_user_data(user_input):
+
+    api_key = "sk-12345-very-secret-key"
+    query = f"SELECT * FROM users WHERE name = '{user_input}'"
+    for i in range(10000000):
+
+        pass
+    print(f"Processing {query}")
+
 def run_review_agent(repo_name, pr_number):
     print(f"Starting Review Agent on {repo_name} PR #{pr_number}...")
     
